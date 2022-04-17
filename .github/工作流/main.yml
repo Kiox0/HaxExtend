@@ -24,8 +24,8 @@ jobs:
 
         - name: 'Working'
           env:
-            USERNAME: ${{ secrets.USERNAME }}
-            PASSWORD: ${{ secrets.PASSWORD }}
+            USERNAME: ${{ secrets.126087004 }}
+            PASSWORD: ${{ secrets.xyz1597 }}
             BARKKEY: ${{ secrets.BARKKEY }}
           run: |
             python3 ./main.py
